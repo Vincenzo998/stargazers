@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render without crashing 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingVertical": "15%",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "Al Nile",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+     Stargazers 
+  </Text>
+  <View
+    style={
+      [
+        {
+          "justifyContent": "space-evenly",
+          "marginHorizontal": "5%",
+        },
+        {
+          "marginBottom": 15,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Al Nile",
+          },
+        ]
+      }
+    >
+       User 
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter a user"
+      style={
+        [
+          {
+            "borderColor": "#656565",
+            "borderRadius": "13%",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "paddingBottom": "5%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "5%",
+            "width": "100%",
+          },
+        ]
+      }
+      value=""
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "justifyContent": "space-evenly",
+          "marginHorizontal": "5%",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Al Nile",
+          },
+        ]
+      }
+    >
+       Repository 
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter a repository"
+      style={
+        [
+          {
+            "borderColor": "#656565",
+            "borderRadius": "13%",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "paddingBottom": "5%",
+            "paddingLeft": "5%",
+            "paddingRight": "5%",
+            "paddingTop": "5%",
+            "width": "100%",
+          },
+        ]
+      }
+      value=""
+    />
+  </View>
+  <RCTScrollView
+    data={[]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    initialNumToRender={6}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
